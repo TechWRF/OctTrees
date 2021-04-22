@@ -1,8 +1,8 @@
 Subdivides point cloud data in LAS format using octree.
 
-Requirements:
-laspy
-tqdm
+Requirements:<br>
+laspy<br>
+tqdm<br>
 
 1. Pull this repository
 2. Place the '2743_1234.las' under 'data' directory
