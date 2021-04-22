@@ -11,7 +11,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_file', help='Data File Name', default='2743_1234.las')
     parser.add_argument('--scaled_data', default=False)
-    parser.add_argument('--max_type', help='"Depth" or "Nodes"', default='Nodes')
+    parser.add_argument('--max_type', help='"depth" or "nodes"', default='nodes')
     parser.add_argument('--max_value', default=100)
     parser.add_argument('--progressbar', default=True)
     parser.add_argument('--save_result', default=True)
